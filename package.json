@@ -1,0 +1,35 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "A simple demo NodeJS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erulabs/node_test.git"
+  },
+  "author": "Seandon Mooy <seandon.mooy@gmail.com> (http://erulabs.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erulabs/node_test/issues"
+  },
+  "homepage": "https://github.com/erulabs/node_test",
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "chai": "^2.1.1",
+    "connect-modrewrite": "^0.7.11",
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^1.0.0",
+    "gulp-less": "^3.0.1",
+    "gulp-rename": "^1.2.0",
+    "gutil": "^1.6.4",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}
