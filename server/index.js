@@ -4,10 +4,10 @@
 global.ENV = process.env.NODE_ENV || "development";
 global.LISTEN_PORT = process.env.API_PORT || 8081;
 
-console.log(`API starting. Env: "${global.ENV}". Listening on port: ${global.LISTEN_PORT}`);
+console.log("API starting. Env: " + global.ENV + ". Listening on port: " + global.LISTEN_PORT);
 
 // Load libraries
-let express = require('express'),
+var express = require('express'),
   app = express();
 
 // Start services
