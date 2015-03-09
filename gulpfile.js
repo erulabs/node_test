@@ -1,11 +1,11 @@
 'use strict';
 
-let NODE_ENV = 'development',
+var NODE_ENV = 'development',
   DEV_PORT = 8080,
   API_PORT = 8081,
   ASSET_URL = '/';
 
-let gulp = require('gulp'),
+var gulp = require('gulp'),
   jade = require('gulp-jade'),
   less = require('gulp-less'),
   browserify = require('browserify'),
@@ -17,7 +17,7 @@ let gulp = require('gulp'),
   babelify = require('babelify'),
   spawn = require('child_process').spawn;
 
-let apiService;
+var apiService;
 
 gulp.task('server', function () {
   if (apiService) {
@@ -72,7 +72,7 @@ gulp.task('browserify', function () {
     .on('error', gutil.log);
 });
 
-let defaultTasks = [
+var defaultTasks = [
   'less',
   'jade',
   'browserify'];
