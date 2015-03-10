@@ -14,5 +14,5 @@ var express = require('express'),
 app.listen(global.LISTEN_PORT);
 
 app.get('/test', function (req, res) {
-  res.send('Hello world! This data is from the API! Version 0.0002');
+  res.send('Hello world! This data is from the API! Version 0.0003');
 });
